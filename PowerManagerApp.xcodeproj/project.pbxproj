@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD28BF5F290ADDDE000DB480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28BF5E290ADDDE000DB480 /* ContentView.swift */; };
 		BD4D7ED328F8101900B11C0D /* PowerManagerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D7ED228F8101900B11C0D /* PowerManagerAppApp.swift */; };
-		BD4D7ED528F8101900B11C0D /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D7ED428F8101900B11C0D /* ControlPanelView.swift */; };
+		BD4D7ED528F8101900B11C0D /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D7ED428F8101900B11C0D /* BatteryView.swift */; };
 		BD4D7ED728F8101B00B11C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4D7ED628F8101B00B11C0D /* Assets.xcassets */; };
 		BD4D7EDA28F8101B00B11C0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4D7ED928F8101B00B11C0D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD28BF5E290ADDDE000DB480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD4D7ECF28F8101900B11C0D /* PowerManagerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerManagerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4D7ED228F8101900B11C0D /* PowerManagerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerManagerAppApp.swift; sourceTree = "<group>"; };
-		BD4D7ED428F8101900B11C0D /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		BD4D7ED428F8101900B11C0D /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
 		BD4D7ED628F8101B00B11C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD4D7ED928F8101B00B11C0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				BD4D7ED228F8101900B11C0D /* PowerManagerAppApp.swift */,
-				BD4D7ED428F8101900B11C0D /* ControlPanelView.swift */,
+				BD4D7ED428F8101900B11C0D /* BatteryView.swift */,
+				BD28BF5E290ADDDE000DB480 /* ContentView.swift */,
 				BD4D7ED628F8101B00B11C0D /* Assets.xcassets */,
 				BD4D7ED828F8101B00B11C0D /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4D7ED528F8101900B11C0D /* ControlPanelView.swift in Sources */,
+				BD28BF5F290ADDDE000DB480 /* ContentView.swift in Sources */,
+				BD4D7ED528F8101900B11C0D /* BatteryView.swift in Sources */,
 				BD4D7ED328F8101900B11C0D /* PowerManagerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
