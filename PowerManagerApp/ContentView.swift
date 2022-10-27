@@ -20,6 +20,16 @@ struct ContentView: View {
                 Slider(value: $progress, in : 0...1.0)
                     .tint(.green)
                     .padding()
+                VStack(alignment: .trailing){
+                    Text("Set lowest %")
+                        .font(.caption)
+                        .foregroundColor(.white)
+                }
+            }
+        }
+        .onAppear {
+            withAnimation(.interpolatingSpring(stiffness: 20.0, damping: 8.0)){
+                self.progress = 0.7
             }
         }
     }

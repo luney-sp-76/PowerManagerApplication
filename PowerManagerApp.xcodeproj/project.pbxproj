@@ -54,8 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				BD4D7ED228F8101900B11C0D /* PowerManagerAppApp.swift */,
-				BD4D7ED428F8101900B11C0D /* BatteryView.swift */,
 				BD28BF5E290ADDDE000DB480 /* ContentView.swift */,
+				BD4D7ED428F8101900B11C0D /* BatteryView.swift */,
 				BD4D7ED628F8101B00B11C0D /* Assets.xcassets */,
 				BD4D7ED828F8101B00B11C0D /* Preview Content */,
 			);

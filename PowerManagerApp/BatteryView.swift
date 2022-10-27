@@ -1,6 +1,7 @@
 //
 //  ContentView.swift
 //  PowerManagerApp
+// https://www.youtube.com/watch?v=Y4vMh5QMXKs
 //
 //  Created by Paul Olphert on 13/10/2022.
 //
@@ -44,9 +45,11 @@ struct BatteryView: View {
                     self.opacity = 1
                 }
             }
+            
+            }
         }
     }
-}
+
 
 struct BatteryView_Previews: PreviewProvider {
     static var previews: some View {

@@ -11,7 +11,7 @@ import SwiftUI
 struct PowerManagerAppApp: App {
     var body: some Scene {
         WindowGroup {
-            BatteryView(progress: .constant(0.7), fill: .green, outline: .black)
+            ContentView()
         }
     }
 }
