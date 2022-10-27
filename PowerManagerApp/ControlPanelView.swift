@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ControlPanelView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,8 +20,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ControlPanelView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ControlPanelView()
     }
 }

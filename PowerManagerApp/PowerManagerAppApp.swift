@@ -11,7 +11,7 @@ import SwiftUI
 struct PowerManagerAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ControlPanelView()
         }
     }
 }
