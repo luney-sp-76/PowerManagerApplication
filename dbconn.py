@@ -4,8 +4,8 @@ import mysql.connector
 
 def connected():
     config = {
-        'user': 'poweruser',
-        'password': 'A5DVtUB8xE6)@xr',
+        'user': 'username',
+        'password': 'secretpassword',
         'host': 'localhost',
         'unix_socket': '/Applications/MAMP/tmp/mysql/mysql.sock',
         'database': 'power_manager',
