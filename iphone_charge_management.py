@@ -20,8 +20,8 @@ iphone_battery_level = iphone_battery_nums[0]
 
 time.sleep(20)
 
-#  if iPhone on charge and the charge level is lower than 100% and higher than 50%
-if iphone_battery_level >= 80:
+#  if iPhone on charge and the charge level is greater than 60
+if iphone_battery_level >= 60:
     #  if the plug state is on and the phone is charging
     if get_state() == 'on' and phone_charging_state == "Charging":
         print("Your phone is currently over 60%")
